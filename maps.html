@@ -2,10 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
     <title>ITMD-361 Fundamentals of Web Development</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/basicmap.js"></script>
+
+    <style>
+      #maps_section_1 {
+        height: 50%;
+        width: 50%;
+      }
+      #test_script{
+        margin: 0;
+        padding: 0;
+        display: block;
+        height: 50%;
+        width: 50%;
+      }
+      #maps {
+        width: 850px;
+        height: 600px;
+        background-color: #c00;
+        margin:0 auto;
+        overflow: hidden;
+      }
+      #canvas {
+        width: 700px;
+        height: 500px;
+        background-color: #ccc;
+        margin: 30px auto;
+      }
+    </style>
   </head>
   <body>
     <div id="navigation-flex">
@@ -19,6 +50,7 @@
         </ul>
       </div>
     </div>
+
     <div id="wrapper-flex">
       <div id="header-flex">
         <header>
@@ -26,13 +58,15 @@
           <p id="motto" >Here is a map I made.</p>
         </header>
       </div>
+      <div id="map_section_1">
+        <h2>Map</h2>
+        <p>More information here</p>
+      </div>
       <div id="maps">
-        <section id="map_section_1">
-          <h2>Map</h2>
-          <p>More information here</p>
-        </section>
+        <div id="canvas"></div>
       </div>
     </div> <!-- end of wrapper div -->
+
     <div id="footer">
       <div id="address">
         <p>Contact</p>
