@@ -1,5 +1,9 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  background-color: #FBFBFF;
+  border-top: 46px solid #757575;
+  box-sizing: border-box;
+  color: #0b0b0b;
 }
 /*Start Fixed Layout CSS*/
 body {
