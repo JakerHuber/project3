@@ -15,7 +15,6 @@
 	color: white;
 	position: absolute;
 	padding-left: 15px;
-	vertical-align: right;
 }
 
 #wrapper {
@@ -72,13 +71,7 @@
 	overflow: hidden;
 }
 
-#side-il {
-	list-style-type: square;
-}
 
-#side-a {
-	color: dimgrey;
-}
 
 #nav ul {
 	list-style-type: none;
@@ -89,7 +82,7 @@
 }
 
 #nav ul li {
-	float: center;
+
 }
 
 #nav ul li a {
@@ -133,7 +126,7 @@
 }
 
 #nav-flex ul li {
-	float: center;
+
 }
 
 #nav-flex ul li a {
@@ -146,7 +139,6 @@
 
 #header-flex {
 	margin: auto;
-	padding: auto;
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
@@ -202,6 +194,14 @@ body {
 .passive:hover {
 	/*Hover over new page*/
 	background-color: #606060;
+}
+
+.side-il {
+	list-style-type: square;
+}
+
+.side-a {
+	color: dimgrey;
 }
 
 
@@ -289,7 +289,7 @@ iframe {
 
 /* END Media Queries*/
 
-#fixed-nav {
+.fixed-nav {
 	float: right;
 }
 
