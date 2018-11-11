@@ -22,14 +22,12 @@
 	width: 960px;
 	margin: 0 auto;
 	/*outline: #ff7900 2px dashed;*/
-	overflow: hidden;
 	background-color: #FBFBFF;
 }
 
 #header {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	text-align: center;
 	background-color: #48CA73;
 	border-bottom-color: #0b0b0b;
@@ -40,22 +38,23 @@
 #main {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	float: left;
-	width: 650px;
-	margin: 20px 20px 0 0;
-	/*outline: 2px dashed #0053ae;*/
+	/*width: 650px;*/
+    width: 71%;
+	padding: 2% 2% 2% 2%;
+	outline: 2px dashed #0053ae;
 }
 
 #extras {
-	overflow: hidden;
 	float: left;
-	width: 247px;
-	margin: 20px 20px;
-	/*outline: 2px dashed #dd0009;*/
+    display: inline-block;
+  	/*width: 247px;*/
+    width: 20%;
+	padding: 2% 2% 2% 2%;
+	outline: 2px dashed #dd0009;
 	border-right-color: #0b0b0b;
 	border-right-style: solid;
-	border-right-width: 2px;
+	border-right-width: 1%;
 }
 
 #footer {
@@ -64,7 +63,7 @@
 }
 
 #address {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	/*outline: yellow 2px dashed;*/
 	text-align: center;
@@ -153,6 +152,7 @@
 	margin-left: auto;
 	width: 100%;
 	max-width: 960px;
+  	outline: #ff7900 2px dashed;
 }
 
 #portfolios {
@@ -264,6 +264,12 @@ iframe {
 	display: block;
 }
 
+figure{
+  outline: yellow 2px dashed;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
 /* END images and media*/
 
@@ -312,6 +318,48 @@ iframe {
 		border-top: 0.063em solid #0b0b0b;
 		border-bottom: 0.063em solid #0b0b0b;
 	}
+    #main {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 100%;
+        padding: 2% 2% 2% 2%;
+        outline: 2px dashed #0053ae;
+    }
+    #main h2{
+        text-align: center;
+        border-bottom: 0.063em solid #0b0b0b;
+    }
+
+    #extras {
+        float: left;
+        display: inline-block;
+        /*width: 247px;*/
+        width: 95.7%;
+        padding: 2% 2% 2% 2%;
+        border-right-color: #FBFBFF;
+        border-right-style: solid;
+        border-right-width: 0;
+    }
+    #extras figure {
+        outline: yellow 2px dashed;
+        text-align: center;
+    }
+    #extras ul li {
+        text-align: center;
+        list-style-type: none;
+        list-style: none;
+
+    }
+    #extras h2 {
+        text-align: center;
+        list-style-type: none;
+        list-style: none;
+        border-bottom: 0.063em solid #0b0b0b;
+    }
+    #extras ul {
+        padding: 0; 
+    }
 }
 
 @media screen and (min-width: 601px) {
