@@ -41,7 +41,7 @@
 	/*width: 650px;*/
     width: 71%;
 	padding: 0;
-	outline: 2px dashed #0053ae;
+	/*outline: 2px dashed #0053ae;*/
 }
 
 #extras {
@@ -50,7 +50,7 @@
     width: 20%;
 	margin: 2% 0 0 2%;
   	padding: 0 2% 0 0;
-	outline: 2px dashed #dd0009;
+	/*outline: 2px dashed #dd0009;*/
 	border-right-color: #0b0b0b;
 	border-right-style: solid;
 	border-right-width: 1%;
