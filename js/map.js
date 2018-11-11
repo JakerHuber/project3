@@ -5,7 +5,7 @@ var infowindow = new google.maps.InfoWindow();
 function initialize() {
     //initializes map
     myLocation = new google.maps.LatLng(41.950, -87.786);
-    map = new google.maps.Map(document.getElementById('canvas3'), {
+    map = new google.maps.Map(document.getElementById('canvas'), {
         center: myLocation,
         zoom: 10,
         mapTypeId: 'terrain'

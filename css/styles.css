@@ -188,7 +188,7 @@
     width: 50%;
 }
 
-#map, #map2, #map3 {
+#map {
     width: 100%;
     height: 100%;
     background-color: #48CA73;
@@ -196,7 +196,7 @@
     overflow: hidden;
 }
 
-#canvas, #canvas3 {
+#canvas {
     width: auto;
     height: 30em;
     background-color: #ccc;
