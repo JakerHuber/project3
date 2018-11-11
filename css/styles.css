@@ -175,9 +175,10 @@
 /* START map css */
 
 #mapssection1 {
-        height: 100%;
-        width: 100%;
-        margin: 1em 1em 1em 1em;
+	float: left;
+	width: auto;
+	margin: 0 2% 0 2%;
+	}
 }
 
 #test_script{
