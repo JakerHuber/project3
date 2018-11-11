@@ -209,6 +209,7 @@
 
 html {
 	background-color: #757575;
+    overflow: hidden;
 }
 
 body {
@@ -216,6 +217,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #EAF9EF;
+    overflow: hidden;
 }
 
 .active {
