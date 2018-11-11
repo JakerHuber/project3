@@ -37,8 +37,6 @@ function initMap() {
         map: map,
         title: 'Location'
     });
-
-    map.data.loadGeoJson('https://jakerhuber.github.io/project3/jacob.js');
 }
 
 google.maps.event.addDomListener(window, "load", initMap);

@@ -1,4 +1,4 @@
-eqfeed_callback({
+﻿{
   "type" : "FeatureCollection",
   "features" : [ {
     "geometry" : {
@@ -967,4 +967,4 @@ eqfeed_callback({
     },
     "type" : "Feature"
   } ]
-});
+}
