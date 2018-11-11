@@ -36,21 +36,21 @@
 }
 
 #main {
-	margin: 0;
-	padding: 0;
+	margin: 2% 2% 2% 2%;
 	float: left;
 	/*width: 650px;*/
     width: 71%;
-	padding: 2% 2% 2% 2%;
-	/*outline: 2px dashed #0053ae;*/
+	padding: 0;
+	outline: 2px dashed #0053ae;
 }
 
 #extras {
 	float: left;
   	/*width: 247px;*/
     width: 20%;
-	padding: 2% 2% 2% 2%;
-	/*outline: 2px dashed #dd0009;*/
+	margin: 2% 0 0 2%;
+  	padding: 0 2% 0 0;
+	outline: 2px dashed #dd0009;
 	border-right-color: #0b0b0b;
 	border-right-style: solid;
 	border-right-width: 1%;
@@ -334,7 +334,7 @@ figure {
         float: left;
         display: inline-block;
         /*width: 247px;*/
-        width: 95.7%;
+        width: 92%;
         padding: 2% 2% 2% 2%;
         border-right-color: #FBFBFF;
         border-right-style: solid;
