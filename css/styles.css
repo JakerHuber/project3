@@ -51,9 +51,7 @@
 	margin: 2% 0 0 2%;
   	padding: 0 2% 0 0;
 	/*outline: 2px dashed #dd0009;*/
-	border-right-color: #0b0b0b;
-	border-right-style: solid;
-	border-right-width: 1%;
+	border-right: #0b0b0b solid 2px;
 }
 
 #footer {
@@ -178,7 +176,6 @@
 	float: left;
 	width: auto;
 	margin: 0 2% 0 2%;
-	}
 }
 
 #test_script{
