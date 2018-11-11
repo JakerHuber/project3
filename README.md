@@ -17,11 +17,11 @@ For this project, you will polish up your CSS and add a little JavaScript.
 
 3. [ ] **Third Deliverable:** Final update to your Basecamp post with the following
 
-3.1 Javascript: Inclusion of either a google maps api utilizing at least three javascript features, or a javscript based rotating picture display.
+* Javascript: Inclusion of either a google maps api utilizing at least three javascript features, or a javscript based rotating picture display.
 
-3.2 A 5-8 sentence self-critique memo of your project and your progress in class this semester
+* A 5-8 sentence self-critique memo of your project and your progress in class this semester
 
-3.3 The https:// link to your individual GitHub repository
+* The https:// link to your individual GitHub repository
 
 ## Requirements
 
