@@ -195,6 +195,9 @@
     margin:0 auto;
     overflow: hidden;
 }
+#map img {
+  max-width: none!important; max-height: none!important
+}
 
 #canvas {
     width: auto;
