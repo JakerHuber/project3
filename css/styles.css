@@ -42,7 +42,7 @@
 	/*width: 650px;*/
     width: 71%;
 	padding: 2% 2% 2% 2%;
-	outline: 2px dashed #0053ae;
+	/*outline: 2px dashed #0053ae;*/
 }
 
 #extras {
@@ -50,7 +50,7 @@
   	/*width: 247px;*/
     width: 20%;
 	padding: 2% 2% 2% 2%;
-	outline: 2px dashed #dd0009;
+	/*outline: 2px dashed #dd0009;*/
 	border-right-color: #0b0b0b;
 	border-right-style: solid;
 	border-right-width: 1%;
@@ -151,7 +151,7 @@
 	margin-left: auto;
 	width: 100%;
 	max-width: 960px;
-  	outline: #ff7900 2px dashed;
+  	/*outline: #ff7900 2px dashed;*/
 }
 
 #portfolios {
@@ -263,8 +263,8 @@ iframe {
 	display: block;
 }
 
-figure{
-  outline: yellow 2px dashed;
+figure {
+  /*outline: yellow 2px dashed;*/
   margin: 0;
   padding: 0;
   text-align: center;
@@ -323,7 +323,7 @@ figure{
         float: left;
         width: 100%;
         padding: 2% 2% 2% 2%;
-        outline: 2px dashed #0053ae;
+        /*outline: 2px dashed #0053ae;*/
     }
     #main h2{
         text-align: center;
@@ -341,7 +341,7 @@ figure{
         border-right-width: 0;
     }
     #extras figure {
-        outline: yellow 2px dashed;
+        /*outline: yellow 2px dashed;*/
         text-align: center;
     }
     #extras ul li {
